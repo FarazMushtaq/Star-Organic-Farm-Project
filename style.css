@@ -1,0 +1,304 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+.top-bar {
+  background-image: linear-gradient(limegreen, rgb(136, 204, 0));
+  font-size: 12px;
+  color: white;
+  height: 25px;
+}
+#navbar {
+  background-color: whitesmoke;
+  color: black;
+}
+#brand {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.aboutus {
+  padding: 130px;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  color: white;
+  height: 400px;
+  font-size: 100px;
+}
+#brandabout {
+  background: -webkit-linear-gradient(rgb(136, 204, 0), limegreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    height: 100%;
+  }
+}
+#top-nav-link {
+  color: white;
+}
+#nav-link {
+  font-size: 13px;
+  color: black;
+}
+#nav-link:hover {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+}
+.mega-menu {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+.dropdown-item {
+  font-size: 13px;
+  color: white;
+}
+.dropdown-item:hover {
+  transition-duration: 0.5s;
+  background-color: black;
+  color: white;
+}
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.slider-text {
+  font-size: 80px;
+}
+
+#slider-button {
+  border-radius: 100px;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  color: white;
+  width: 150px;
+}
+#slider-button:hover {
+  background-color: rgba(136, 204, 0, 0);
+  border: 2px solid black;
+  color: white;
+}
+#icon1,
+#icon2,
+#icon3,
+#icon4 {
+  text-align: center;
+  color: black;
+  font-size: 100px;
+}
+#icon1:hover {
+  color: lime;
+  transition-duration: 0.5s;
+}
+#icon2:hover {
+  color: lawngreen;
+  transition-duration: 0.5s;
+}
+#icon3:hover {
+  color: gold;
+  transition-duration: 0.5s;
+}
+#icon4:hover {
+  color: lightseagreen;
+  transition-duration: 0.5s;
+}
+#icons-heading {
+  text-align: center;
+  color: black;
+}
+#icons-detail {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+.vegetable-heading {
+  text-align: center;
+  color: limegreen;
+}
+.carousel-caption {
+  top: 40%;
+}
+.img-blur {
+  filter: blur(8px);
+}
+#contactbtn {
+  width: 200px;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  color: white;
+}
+#contactbtn:hover {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  border: 2px solid black;
+}
+#footer {
+  background-color: whitesmoke;
+}
+.heading {
+  color: rgb(136, 204, 0);
+}
+ul li .link {
+  text-decoration: none;
+  color: black;
+}
+ul li .link-footer {
+  text-decoration: none;
+  color: white;
+}
+ul li .link:hover {
+  color: rgb(136, 204, 0);
+  transition-duration: 0.25s;
+  font-weight: 600;
+}
+.footerbottom {
+  color: whitesmoke;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+}
+.heading-brand {
+  font-family: "Playfair Display", serif;
+  color: rgb(136, 204, 0);
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#ads {
+  margin: 30px 0 30px 0;
+}
+#ads .card {
+  height: 100%;
+}
+#ads .card-detail-badge {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+#ads .card:hover {
+  background: white;
+  border-radius: 4px;
+}
+#ads .card-image-overlay {
+  font-size: 20px;
+}
+#ads .card-image-overlay span {
+  display: inline-block;
+}
+#ads .ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  border: 3px solid white;
+  display: block;
+  text-decoration: none;
+  margin: 20px auto 1px auto;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+}
+
+#ads .ad-btn:hover {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  color: white;
+  border: 2px solid limegreen;
+  transition: all 0.3s ease;
+}
+#ad-btn {
+  text-transform: uppercase;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  border: 3px solid white;
+  display: block;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+}
+
+#ads .ad-title h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.ad-heading {
+  color: black;
+}
+.our-products {
+  color: white;
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  border-radius: 20px;
+}
+.form-signin #btn {
+  background-image: linear-gradient(rgb(136, 204, 0), limegreen);
+  color: white;
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+.form-signin #btn:hover {
+  background-image: linear-gradient(limegreen, rgb(136, 204, 0));
+  color: white;
+  border: 2px solid limegreen;
+  transition-duration: 0.25s;
+}
+#btn-google {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  color: white;
+  background-color: #ea4335;
+}
+
+#btn-facebook {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  color: white;
+  background-color: #3b5998;
+}
+.heading-login {
+  background-image: linear-gradient(limegreen, rgb(136, 204, 0));
+  text-align: center;
+  font-size: 40px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+}
+.CategoryHeading {
+  font-size: 80px;
+}
+select {
+  height: 30px;
+  padding-right: 135px;
+  cursor: pointer;
+}
+input[type="number"],
+select {
+  border: 1px solid rgb(136, 204, 0);
+}
